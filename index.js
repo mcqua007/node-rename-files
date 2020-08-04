@@ -1,8 +1,6 @@
 #!/usr/bin/env/ node
 // index.js
 
-console.log('Hello World ')
-
 const { readdirSync, rename } = require('fs')
 const { resolve, path } = require('path')
 const args = require('yargs').argv
